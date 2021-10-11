@@ -1,0 +1,45 @@
+.page-timer{
+    background-color: tomato;
+    background-image: url(./img/present.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.timer-box{
+    background-color: red;
+    box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+.timer-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+}
+.timer{
+    display: flex;
+}
+.value{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.label{
+    text-align: center;
+}
+.separator{
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+}
